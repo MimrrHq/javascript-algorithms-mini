@@ -12,6 +12,7 @@ const englishAlphabetSize = 26;
  */
 const generateKeyMatrix = (keyString) => {
   const matrixSize = Math.sqrt(keyString.length);
+  console.log("hi");
   if (!Number.isInteger(matrixSize)) {
     throw new Error(
       'Invalid key string length. The square root of the key string must be an integer',
