@@ -9,6 +9,7 @@ export default class PolynomialHash {
   constructor({ base = DEFAULT_BASE, modulus = DEFAULT_MODULUS } = {}) {
     this.base = base;
     this.modulus = modulus;
+    console.log("Hi");
   }
 
   /**
